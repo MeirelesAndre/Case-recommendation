@@ -9,3 +9,25 @@ Seu objetivo é que o usuário informe um nome de jogo e receba como retorno os 
 $$r_{\mathbf{ui}} = \frac{hours\ \mathbf{u}\ played\ in\ game\ \mathbf{i}}{total\ hours\ \mathbf{u}\ played}$$
 
 ou seja, total de que o usuário jogou o game em relaçaõ ao total de horas jogados em todos os jogos.
+
+
+
+## Resolução:
+
+
+### Notebooks
+
+``` bash
+conda create -n ml python=3.8
+conda activate ml
+pip install -r requirements.txt
+```
+
+### SRC and APP
+
+``` bash
+conda create -n fastAPI python=3.8
+conda activate fastAPI
+pip install fastapi
+pip install -r requirements.txt
+```
